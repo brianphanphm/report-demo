@@ -1,0 +1,135 @@
+.bg-dark-blue {
+  background-color: #24292f;
+}
+
+blockchain {
+  max-height: 700px;
+  max-width: 900px;
+  overflow: scroll;
+  overflow-y: hidden;
+  padding: 2rem;
+}
+
+chain-link {
+  font-size: 1.5rem;
+  margin: 50%;
+  color: gray;
+}
+
+.btn-close {
+  background-color: red !important;
+}
+
+.block {
+  cursor: pointer;
+  color: red;
+  min-width: 300px;
+}
+
+.block a {
+  text-decoration: none;
+}
+.block .card-header {
+    background-color: #333;
+  }
+
+.block h5 {
+  margin-top: 1rem;
+}
+
+.block.active {
+  border: 1px solid blue;
+  box-shadow: 0 0px 15px 0.5px #ccc;
+}
+
+.block .hash {
+  color: red;
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.block-css {
+  margin-top: 20px;
+}
+
+.block-item {
+  /* display: flex; */
+  /* height: 200px; */
+  margin-top: 20px;
+}
+
+.form {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.formRow {
+  position: relative;
+  width: 100%;
+}
+.formRow--item {
+  display: block;
+  width: 100%;
+}
+.formRow--input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+.formRow--input-wrapper {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+.formRow--input-wrapper.active .placeholder {
+  top: -5px;
+  background-color: #ffffff;
+  color: #0dfb00;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  font-size: 11px;
+  line-height: 14px;
+  transform: translateY(0);
+}
+.formRow--input-wrapper.active .formRow--input:not(:focus):not(:hover) ~ .placeholder {
+  color: #fec8c9;
+}
+.formRow--input-wrapper .formRow--input:focus, .formRow--input-wrapper .formRow--input:hover {
+  border-color: #09ff00;
+}
+.formRow .placeholder {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  display: block;
+  padding: 0 10px;
+  color: #95989a;
+  white-space: nowrap;
+  letter-spacing: 0.2px;
+  font-weight: normal;
+  font-size: 16px;
+  transition: all, 0.2s;
+  transform: translateY(-50%);
+  pointer-events: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.input-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.font-size {
+  font-family: 'Times New Roman', Times, serif;
+}
